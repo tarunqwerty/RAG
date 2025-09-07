@@ -8,7 +8,7 @@ from langchain.memory import ConversationBufferMemory
 import os, asyncio, sys
 
 # 🔑 Setup Gemini API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCJ5_z0cUu8c7G3wPTDw-G6tlPy0baQF1U"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # ✅ Ensure event loop exists (for Streamlit threads on Windows)
 if sys.platform.startswith("win"):
